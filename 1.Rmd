@@ -1,0 +1,12 @@
+---
+title: "Untitled"
+author: "Lishan Shi"
+date: "2022-10-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**The reason why expected test error is always at least as large as the irreducible error is because even if we minimize the reducible errors to 0., i.e, when we take** $\hat{f}(x_0)=E[Y|X=x_0]$**, we still leave with irreducible error $Var(\epsilon)$ in the bias-variance tradeoff, meaning that expect test error should always be greater than or equal to irreducible error.**
