@@ -135,6 +135,7 @@ final_predict <-bind_cols(data_train_all_result,data_train %>% select(age))
 final_predict
 data_metrics(final_predict,truth=age,estimate = .pred)
 ```
+
 The Root Mean Square Error is 2.138, the coefficient of determination is 0.5567 and the mean absolute error is 1.5438. In terms of coefficient of determination, 0.5567 means that 55.67% of variability observed in the target variable is explained by the regression model. Since this value is not very large compared to 1, this indicates that the regression model does not perform very well in predicting the target variable.
 
 ### Required for 231 Students
@@ -172,3 +173,4 @@ Hints:
 - use the definition of $Bias(\hat{f}(x_0))=E[\hat{f}(x_0)]-f(x_0)$;
 - reorganize terms in the expected test error by adding and subtracting $E[\hat{f}(x_0)]$
 
+Please see the picture that I uploaded on Gauchospace in the same file as HW2. 
